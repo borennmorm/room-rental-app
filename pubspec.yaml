@@ -16,11 +16,20 @@ dependencies:
   cloud_firestore: ^4.15.8
   get: ^4.6.6
   flutter_locales: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^3.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/icons/logo.png"
+  min_sdk_android: 21
+
 
 flutter:
   uses-material-design: true
