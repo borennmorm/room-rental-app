@@ -1,0 +1,30 @@
+name: room_rental
+description: "Room Rental App"
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  easy_localization: ^3.0.7
+  firebase_core: ^2.27.0
+  firebase_auth: ^4.17.8
+  cloud_firestore: ^4.15.8
+  get: ^4.6.6
+  flutter_locales: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+
