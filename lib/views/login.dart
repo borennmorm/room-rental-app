@@ -1,10 +1,10 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:room_rental/views/home.dart';
 
 import '../components/button.dart';
 import '../components/textfield.dart';
-import 'question.dart';
 import 'register.dart';
 import 'subviews/forget_password.dart';
 
@@ -44,7 +44,7 @@ class _LoginViewState extends State<LoginView> {
         password: password,
       );
 
-      Get.off(() => const QuestionView());
+      Get.off(() => HomeView());
     } catch (e) {
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(

@@ -17,6 +17,9 @@ dependencies:
   get: ^4.6.6
   flutter_locales: ^2.0.0
   flutter_launcher_icons: ^0.13.1
+  image_picker: ^1.1.2
+  curved_navigation_bar: ^1.0.4
+  google_maps_flutter: ^2.6.1
 
 dev_dependencies:
   flutter_test:

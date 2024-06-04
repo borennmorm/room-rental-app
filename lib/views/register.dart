@@ -6,17 +6,15 @@ import 'package:room_rental/views/login.dart';
 
 import '../components/button.dart';
 import '../components/textfield.dart';
-import '../controller/error_handler.dart';
 
 class RegisterView extends StatefulWidget {
-  const RegisterView({Key? key});
+  const RegisterView({super.key});
 
   @override
   State<RegisterView> createState() => _RegisterViewState();
 }
 
 class _RegisterViewState extends State<RegisterView> {
-  final FirebaseAuth _auth = FirebaseAuth.instance;
   late TextEditingController _fullNameController;
   late TextEditingController _passwordController;
   late TextEditingController _emailController;
